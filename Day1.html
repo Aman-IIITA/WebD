@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+            <th>Student Id</th>
+            <th>Student name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Aman</td>
+            <td>M </td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ana </td>
+            <td>F </td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Adesh</td>
+            <td>M </td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Shreya</td>
+            <td>F </td>
+            <td>19</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr >
+                <td colspan="4">Attendence
+                
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <table border="1">
+        <thead>
+            <th>Col1</th>
+            <th>Col2</th>
+            <th>Col3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">R1 C1</td>
+                <td>R1 C2</td>
+                <td>R1 C3</td>
+            </tr>
+            <tr>
+                <td>R2 C2</td>
+                <td>R2 C3</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    R3 C1
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <th>No. </th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Aman</td>
+                <td>Microsoft</td>
+                <td>1000</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve</td>
+                <td>Apple</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>3
+                </td>
+                <td>Mummy</td>
+                <td>Ghar</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Pooja</td>
+                <td>Nift</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Total Expense</th>
+                <th>20000</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br>
+    <form>
+
+        <label for="Name">Enter Name:</label>
+        <input type="text" name="" id="Name">
+        <br><br>
+
+        <label for="Password">Password:</label>
+        <input type="text" id="Password">
+
+        <br><br>
+        <label for="Address">Address:</label>
+        <textarea name="Address" id="Address" cols="10" rows="1"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="Game" value="Hockey">
+        <label for="Game">Hockey</label>
+
+        <br>
+        <br>
+        <input type="checkbox" id="Game" value="Hockey">
+        <label for="Game">Cricket</label>
+
+        <br><br>
+        <input type="radio" id="Male" name="Gender" checked >
+        <label for="Male" >Male</label>
+        <input type="radio" id="Female" name="Gender">
+        <label for="Female" >Female</label>
+        <input type="radio" id="Others" name="Gender">
+        <label for="Others" >Others</label>
+        <br><br>
+        <label for="Photo">Select Photo</label>
+        <input type="file" id="Photo">
+
+        
+        <select data-placeholder="Begin typing a name to filter..." multiple class="chosen-select" name="test">
+            <!-- <option value=""></option> -->
+            <option>American Black Bear</option>
+            <option>Asiatic Black Bear</option>
+            <option>Brown Bear</option>
+            <option>Giant Panda</option>
+            <option>Sloth Bear</option>
+            <option>Sun Bear</option>
+            <option>Polar Bear</option>
+            <option>Spectacled Bear</option>
+        </select>
+
+
+
+        <h2>Event Registration</h2>
+        <label for="Name">Enter Name</label>
+        <input type="text" name="Name" id="Name">
+        <br><br>
+
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email">
+        <br><br>
+
+        <label for="Phone">Phone Number</label>
+        <input type="text" name="Phone" id="Phone">
+        <br><br>
+
+        <label for="Job">Job:</label>
+        <select name="Job" id="Job">
+            <option value="" disabled selected hidden>Choose job</option>
+            <option value="Nalla">Nalla</option>
+            <option value="Kaam">Kaam</option>
+            <option value="Nift">Nift</option>
+            <option value="Engineer">Engineer</option>
+        </select>
+
+        <br><br>
+        <fieldset style="display: inline;">
+            <legend>Topics of Interest</legend>
+            <input type="checkbox">
+            <label for="HTML">HTML</label>
+    
+            <input type="checkbox">
+            <label for="CSS">CSS</label>
+            <input type="checkbox">
+            <label for="JS">JS</label>
+        </fieldset>
+
+       
+        <br>
+        <br>
+        <textarea name="Comments" id="Comments" cols="30" rows="10" placeholder="Enter text Here"></textarea>
+        <input type="submit" value="Click Here">
+    </form>
+</body>
+</html>
